@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	char ch;
+	float f;
+	cout<<"enter an integer,chracter and a floating point number:";
+	cin>>a>>ch>>f;
+	cout<<"\ninteger: "<<a<<"\nfloating point number: "<<f<<"\ncharacter: "<<ch;
+	return 0;
+}
